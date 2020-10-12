@@ -1,14 +1,14 @@
-@import "./css/components/status-bar.css";
-@import "./css/reset.css";
-@import "./css/kokoa-login.css";
-@import "./css/components/user-component.css";
-@import "./css/components/nav-bar.css";
-@import "./css/chats.css";
-@import "./css/find.css";
-@import "./css/more.css";
-@import "./css/setting.css";
-@import "./css/chat.css";
-@import "./css/components/no-mobile.css";
+@import "css/components/status-bar.css";
+@import "css/reset.css";
+@import "css/kokoa-login.css";
+@import "css/components/user-component.css";
+@import "css/components/nav-bar.css";
+@import "css/chats.css";
+@import "css/find.css";
+@import "css/more.css";
+@import "css/setting.css";
+@import "css/chat.css";
+@import "css/components/no-mobile.css";
 
 a {
   text-decoration: none;

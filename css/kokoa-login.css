@@ -1,0 +1,60 @@
+.kokoa-welcome {
+  margin-top: 135px;
+}
+
+.kokoa-welcome__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kokoa-welcome__column span:first-child {
+  font-size: 20px;
+  font-weight: 555;
+}
+
+.kokoa-welcome__column span:nth-child(2) {
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.kokoa-welcome__column span:last-child {
+  opacity: 0.5;
+  margin-bottom: 100px;
+}
+
+.kokoa-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kokoa-login input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  margin: 10px;
+  padding: 10px;
+  opacity: 0.6;
+  width: 250px;
+}
+
+.kokoa-login input[type="submit"] {
+  border: none;
+  opacity: 1;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: yellow;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.kokoa-accountcheck {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kokoa-accountcheck a {
+  text-decoration: none;
+}

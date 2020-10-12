@@ -1,0 +1,176 @@
+.menu-bar {
+  margin: 30px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-bar__column {
+  margin: 0;
+}
+
+.menu-bar__column:nth-child(2) {
+  margin: 10px 0px;
+}
+
+.menu-bar__column i {
+  margin-right: 15px;
+}
+
+.menu-bar__column h2 {
+  margin: 0;
+}
+
+.friends-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0px 15px;
+}
+
+.friends-display span {
+  margin: 0 4px;
+}
+
+.friends-display i {
+  opacity: 0.2;
+}
+
+.user-me {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-me__column {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.user-me__column span {
+  margin-left: 15px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.user-me__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-me__text span:nth-child(2) {
+  font-size: 15px;
+  margin-top: 6px;
+  opacity: 0.4;
+}
+.user-me__subtext {
+  margin-top: 6px;
+}
+
+.user-me__subtext span {
+  font-size: 15px;
+  opacity: 0.4;
+}
+
+.user-me__subtext i {
+  color: red;
+}
+.user-me__column img {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+}
+
+.user-me__column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.user-me__column:nth-child(2) span {
+  font-size: 15px;
+  opacity: 0.4;
+}
+
+.user-me__border {
+  margin-top: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0px 20px;
+  margin-top: 15px;
+}
+
+.user-channel {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-channel__column {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  margin-top: 10px;
+}
+
+.user-channel__column:first-child {
+  opacity: 0.5;
+}
+
+.user-channel__column h5 {
+  margin: 0;
+}
+
+.user-channel__column img {
+  width: 50px;
+  height: 50px;
+  border-radius: 22px;
+}
+
+.user-channel__profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-channel__profile span {
+  margin-left: 20px;
+}
+
+.user-channel__column:nth-child(2) {
+  align-items: center;
+}
+
+.user-channel__count {
+  opacity: 0.5;
+}
+
+@keyframes hideSplashScreen
+{
+  from
+  {
+    opacity: 1;
+  }
+
+  to
+  {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: yellow;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 1s;
+}
